@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACF45F0A1B7C030E00B33953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF45F091B7C030E00B33953 /* AppDelegate.swift */; };
+		ACF45F0C1B7C030E00B33953 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF45F0B1B7C030E00B33953 /* ViewController.swift */; };
+		ACF45F0F1B7C030E00B33953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF45F0D1B7C030E00B33953 /* Main.storyboard */; };
+		ACF45F111B7C030E00B33953 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF45F101B7C030E00B33953 /* Images.xcassets */; };
+		ACF45F141B7C030E00B33953 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACF45F121B7C030E00B33953 /* LaunchScreen.xib */; };
+		ACF45F201B7C030E00B33953 /* Recorder2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF45F1F1B7C030E00B33953 /* Recorder2Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACF45F1A1B7C030E00B33953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACF45EFC1B7C030E00B33953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF45F031B7C030E00B33953;
+			remoteInfo = Recorder2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACF45F041B7C030E00B33953 /* Recorder2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recorder2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF45F081B7C030E00B33953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF45F091B7C030E00B33953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACF45F0B1B7C030E00B33953 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACF45F0E1B7C030E00B33953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACF45F101B7C030E00B33953 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ACF45F131B7C030E00B33953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ACF45F191B7C030E00B33953 /* Recorder2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Recorder2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF45F1E1B7C030E00B33953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF45F1F1B7C030E00B33953 /* Recorder2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recorder2Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACF45F011B7C030E00B33953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF45F161B7C030E00B33953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACF45EFB1B7C030E00B33953 = {
+			isa = PBXGroup;
+			children = (
+				ACF45F061B7C030E00B33953 /* Recorder2 */,
+				ACF45F1C1B7C030E00B33953 /* Recorder2Tests */,
+				ACF45F051B7C030E00B33953 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACF45F051B7C030E00B33953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACF45F041B7C030E00B33953 /* Recorder2.app */,
+				ACF45F191B7C030E00B33953 /* Recorder2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACF45F061B7C030E00B33953 /* Recorder2 */ = {
+			isa = PBXGroup;
+			children = (
+				ACF45F091B7C030E00B33953 /* AppDelegate.swift */,
+				ACF45F0B1B7C030E00B33953 /* ViewController.swift */,
+				ACF45F0D1B7C030E00B33953 /* Main.storyboard */,
+				ACF45F101B7C030E00B33953 /* Images.xcassets */,
+				ACF45F121B7C030E00B33953 /* LaunchScreen.xib */,
+				ACF45F071B7C030E00B33953 /* Supporting Files */,
+			);
+			path = Recorder2;
+			sourceTree = "<group>";
+		};
+		ACF45F071B7C030E00B33953 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACF45F081B7C030E00B33953 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACF45F1C1B7C030E00B33953 /* Recorder2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ACF45F1F1B7C030E00B33953 /* Recorder2Tests.swift */,
+				ACF45F1D1B7C030E00B33953 /* Supporting Files */,
+			);
+			path = Recorder2Tests;
+			sourceTree = "<group>";
+		};
+		ACF45F1D1B7C030E00B33953 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACF45F1E1B7C030E00B33953 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACF45F031B7C030E00B33953 /* Recorder2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF45F231B7C030E00B33953 /* Build configuration list for PBXNativeTarget "Recorder2" */;
+			buildPhases = (
+				ACF45F001B7C030E00B33953 /* Sources */,
+				ACF45F011B7C030E00B33953 /* Frameworks */,
+				ACF45F021B7C030E00B33953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recorder2;
+			productName = Recorder2;
+			productReference = ACF45F041B7C030E00B33953 /* Recorder2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACF45F181B7C030E00B33953 /* Recorder2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF45F261B7C030E00B33953 /* Build configuration list for PBXNativeTarget "Recorder2Tests" */;
+			buildPhases = (
+				ACF45F151B7C030E00B33953 /* Sources */,
+				ACF45F161B7C030E00B33953 /* Frameworks */,
+				ACF45F171B7C030E00B33953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF45F1B1B7C030E00B33953 /* PBXTargetDependency */,
+			);
+			name = Recorder2Tests;
+			productName = Recorder2Tests;
+			productReference = ACF45F191B7C030E00B33953 /* Recorder2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACF45EFC1B7C030E00B33953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Archetapp;
+				TargetAttributes = {
+					ACF45F031B7C030E00B33953 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					ACF45F181B7C030E00B33953 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = ACF45F031B7C030E00B33953;
+					};
+				};
+			};
+			buildConfigurationList = ACF45EFF1B7C030E00B33953 /* Build configuration list for PBXProject "Recorder2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACF45EFB1B7C030E00B33953;
+			productRefGroup = ACF45F051B7C030E00B33953 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACF45F031B7C030E00B33953 /* Recorder2 */,
+				ACF45F181B7C030E00B33953 /* Recorder2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACF45F021B7C030E00B33953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF45F0F1B7C030E00B33953 /* Main.storyboard in Resources */,
+				ACF45F141B7C030E00B33953 /* LaunchScreen.xib in Resources */,
+				ACF45F111B7C030E00B33953 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF45F171B7C030E00B33953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACF45F001B7C030E00B33953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF45F0C1B7C030E00B33953 /* ViewController.swift in Sources */,
+				ACF45F0A1B7C030E00B33953 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF45F151B7C030E00B33953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF45F201B7C030E00B33953 /* Recorder2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACF45F1B1B7C030E00B33953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACF45F031B7C030E00B33953 /* Recorder2 */;
+			targetProxy = ACF45F1A1B7C030E00B33953 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACF45F0D1B7C030E00B33953 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF45F0E1B7C030E00B33953 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACF45F121B7C030E00B33953 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF45F131B7C030E00B33953 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACF45F211B7C030E00B33953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACF45F221B7C030E00B33953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACF45F241B7C030E00B33953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Recorder2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACF45F251B7C030E00B33953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Recorder2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACF45F271B7C030E00B33953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Recorder2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recorder2.app/Recorder2";
+			};
+			name = Debug;
+		};
+		ACF45F281B7C030E00B33953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Recorder2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recorder2.app/Recorder2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACF45EFF1B7C030E00B33953 /* Build configuration list for PBXProject "Recorder2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF45F211B7C030E00B33953 /* Debug */,
+				ACF45F221B7C030E00B33953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF45F231B7C030E00B33953 /* Build configuration list for PBXNativeTarget "Recorder2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF45F241B7C030E00B33953 /* Debug */,
+				ACF45F251B7C030E00B33953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF45F261B7C030E00B33953 /* Build configuration list for PBXNativeTarget "Recorder2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF45F271B7C030E00B33953 /* Debug */,
+				ACF45F281B7C030E00B33953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACF45EFC1B7C030E00B33953 /* Project object */;
+}
